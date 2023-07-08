@@ -1,0 +1,80 @@
+body {
+  background-image: url("./images/background\ image.avif");
+}
+#search {
+  width: 20%;
+  height: 240px;
+  border: 1px solid whitesmoke;
+  margin: 20px;
+  padding: 20px;
+  position: relative;
+  top: 120px;
+  left: 250px;
+  align-items: center;
+  background-color: rgb(11, 146, 186);
+  border-radius: 6px;
+}
+#btn {
+  width: 50%;
+  height: 40px;
+  margin-left: 70px;
+  border-radius: 6px;
+}
+#btn:hover {
+  background-color: rgb(122, 219, 246);
+}
+
+#text {
+  width: 97%;
+  height: 35px;
+  border: 1px solid white;
+  background-color: white;
+}
+
+#report {
+  width: 24%;
+  height: 460px;
+  border: 1px solid whitesmoke;
+  margin: 10px;
+  position: relative;
+  left: 750px;
+  bottom: 240px;
+  text-align: center;
+  align-items: center;
+  background-color: rgb(11, 146, 186);
+  border-radius: 6px;
+}
+#display {
+  display: flex;
+  height: 70px;
+}
+#hum {
+  border-top: 1px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+  flex: 1;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding-right: 10px;
+}
+#wind {
+  border-top: 1px solid whitesmoke;
+  flex: 1;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding-right: 10px;
+  margin-left: "0px";
+}
+#hum div {
+  flex: 0.5;
+}
+#wind div {
+  flex: 0.5;
+}
+#temp {
+  font-size: 70px;
+}
+#city {
+  font-size: 30px;
+}
